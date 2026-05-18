@@ -1,0 +1,58 @@
+# macOS and editor files
+.DS_Store
+*.swp
+*.log
+.vscode/
+.idea/
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+backend/venv/
+
+# Python packaging and local env
+*.egg-info/
+dist/
+.env
+.env.*
+
+# Flutter / Dart
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/build/
+**/coverage/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/ephemeral/
+**/macos/Flutter/ephemeral/
+**/android/local.properties
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# Local secrets and credentials
+*service-account*.json
+*credentials*.json
+naijatalk-tts-*.json
+
+# Duplicate/local working copies
+naijatalk_backend/
+/web/
+
+# Large presentation and office temp files
+*.pptx
+*.docx
+*.pdf
+~$*

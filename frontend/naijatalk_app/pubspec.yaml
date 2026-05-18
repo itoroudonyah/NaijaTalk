@@ -1,0 +1,40 @@
+name: naijatalk_app
+description: NaijaTalk - Real-time speech translation for Nigerian languages
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  web_socket_channel: ^2.4.0
+  audioplayers: ^5.2.1
+  record: ^5.0.2
+  path_provider: ^2.1.1
+  permission_handler: ^11.0.1
+  flutter_native_splash: ^2.3.8
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Add assets
+  # Comenting these until files are available 
+  # assets:
+  #   - assets/images/
+  #   - assets/sounds/
+
+# Configure splash screen
+flutter_native_splash:
+  color: "#008753"
+  image: assets/images/splash_logo.png
+  android: true
+  ios: true
+  web: true

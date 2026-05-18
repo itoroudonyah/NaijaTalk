@@ -1,0 +1,4 @@
+[submodule "third_party/yarngpt"]
+	path = third_party/yarngpt
+	url = https://github.com/saheedniyi02/yarngpt.git
+	ignore = untracked

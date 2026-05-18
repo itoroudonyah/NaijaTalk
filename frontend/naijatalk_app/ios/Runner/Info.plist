@@ -1,0 +1,9 @@
+<key>NSMicrophoneUsageDescription</key>
+<string>NaijaTalk needs microphone access to translate your speech</string>
+<key>NSAppTransportSecurity</key>
+<dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+    <key>NSAllowsLocalNetworking</key>
+    <true/>
+</dict>
